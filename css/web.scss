@@ -1,0 +1,44 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    position: relative; // top, left, right, bottom 움직이려면 당연히    
+    top: 50vh; ///" 화면높이 "/
+     transform: translateY(-50%);
+    a{
+      font-size: 3em;
+      text-decoration: none;  
+      padding: 0.5em 1em ;
+      border-radius: 0.5em;
+      transition: 1.5s;
+    
+    }
+   a.naver{
+      background-color: green;
+      color:rgb(150, 245, 127);
+   }
+   .naver:hover{
+    background-color: green;
+    color:rgb(150, 245, 127);
+    font-size: 5em;
+   }
+
+   a.daum{
+    background-color: blue;
+    color:white;
+   }
+   .daum:hover{
+    background-color: blue;
+    color:white;
+    border:3px solid green}
+    font-size: 3em;
+
+   a.google{
+    background-color: rgb(241, 245, 7);
+    color:white;
+   }
+   .google:hover{
+    background-color: rgb(241, 245, 7);
+    color:white;
+    border:3px solid green}
+    font-size: 3em;
+}

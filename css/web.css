@@ -1,0 +1,57 @@
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 50vh;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 3em;
+  font-size: 3em;
+}
+
+.wrap a {
+  font-size: 3em;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.wrap a.naver {
+  background-color: green;
+  color: #96f57f;
+}
+
+.wrap .naver:hover {
+  background-color: green;
+  color: #96f57f;
+  font-size: 5em;
+}
+
+.wrap a.daum {
+  background-color: blue;
+  color: white;
+}
+
+.wrap .daum:hover {
+  background-color: blue;
+  color: white;
+  border: 3px solid green;
+}
+
+.wrap a.google {
+  background-color: #f1f507;
+  color: white;
+}
+
+.wrap .google:hover {
+  background-color: #f1f507;
+  color: white;
+  border: 3px solid green;
+}
+/*# sourceMappingURL=web.css.map */
